@@ -1,0 +1,3 @@
+# Why build a homelab
+
+Linuxserver.io has some great pre built docker images that allow you to do lots of fun things from a home server perspective. For instance you are able to setup a pihole (adblocker), reverse proxy (server protection from the web), duckdns (self hosted dns). The list goes on. The configurations are simple to use when incorporated with rancher (a kubernetes like docker orchestration tool) and heimdall ( a tool for viewing and access each of your services). The next thought in this process is to move the whole configuration to a raspberry pi and see how the configuration works on this.
