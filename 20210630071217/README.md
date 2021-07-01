@@ -10,10 +10,7 @@ https://medium.com/rungo/everything-you-need-to-know-about-packages-in-go-b8bac6
 https://medium.com/rungo/anatomy-of-modules-in-go-c8274d215c16
 https://medium.com/google-cloud/building-a-go-web-app-from-scratch-to-deploying-on-google-cloud-part-1-building-a-simple-go-aee452a2e654
 
-
-
 Notes from youtube videos - 
-
 
 - Begin a project by doing go mod init github.com/<user>/<program>. This will
   initialise a go module.
