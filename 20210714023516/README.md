@@ -8,6 +8,10 @@ The benefits of this is that i can create scripts to do specific things for exam
 
 Further to this any python variable is able to be piped to bash using the `$<var>`, this could then be used to pipe code blocks to a snippet file or similar to nbdev piping explicit code to a file to create python files from within jupyter notebooks.
 
+
+An example that i used to test this was calling a script to get a snippet of code. Then from there piped the output to a file using `printf` and `>>`
+
+-- `!printf '%s\n' $snippet > file.txt `
 The possiblities of integrating with other programs and languages is quite useful.
 
 
