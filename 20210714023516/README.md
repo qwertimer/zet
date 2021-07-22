@@ -13,5 +13,5 @@ An example that i used to test this was calling a script to get a snippet of cod
 
 -- `!printf '%s\n' $snippet > file.txt `
 The possiblities of integrating with other programs and languages is quite useful.
-
+ 
 
