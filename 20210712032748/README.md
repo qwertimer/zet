@@ -10,13 +10,12 @@ the middle ofthe screen.
 
 ## File completion and command completion
 If you want to have command completion or folder completion in vim you
-can use 
+can use while in insert mode
 `ctrl-x ctrl-f` to complete files
 `ctrl-x ctrl-p` to give selection of completion
 
 This will give you a search bar which would link to different variables
 that you have already defined.
-
 
 
 
