@@ -12,8 +12,7 @@ There is an excellent talk by Mat Ryer about HTTP web services
 These handlers hang off the server.
    - ```func (s *sever) handleSomething() http.HanlerFunc {
      }```
-
-
+     
 - Create handler namings
 
   handleTasksCreate
