@@ -1,4 +1,4 @@
-#There is a tiling window manager for mac
+# There is a tiling window manager for mac
 
 Just found a twitch streamer was using a tiling window manager on the mac.
 - https://github.com/koekeishiya/yabai
