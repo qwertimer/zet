@@ -10,13 +10,14 @@ An example that is really cool
 
 
 ### emoji filter
-`while read -r line; do
+```
+while read -r line; do
   for k in ${!emoji[@]}; do
     line=${line//:$k:/${emoji[$k]}}
   done
   echo "$line"
-done`
-
+done
+```
 To access it in command line  
 `echo 'some :smile: here and :pomo: there | toemoji`
 
