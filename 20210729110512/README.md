@@ -10,12 +10,12 @@ would usually be fed into the read function.
 
 An example of this is:
 
-``
+```
 while read -r line; do
     [[ $line =~ ^declare\ -f\ x_ ]] || continue
     COMMANDS+=( ${line##declare -f x_} )
 done < <(declare -F)
-``
+```
 
 This function is dense but basically it reads in all the functions of a
 file using <(declare -F), technically being saved to `/dev/fd/63` or
