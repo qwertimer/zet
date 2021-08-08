@@ -3,12 +3,12 @@
 Below are just some tidbit vim findings that may or may not help with my
 vim learning.
 
-## Keeping the scroll in the middle of the screen
+- Keeping the scroll in the middle of the screen
 
 We can set the sidescrolloff and scrolloff to 999 to keep the cursor in
 the middle ofthe screen.
 
-## File completion and command completion
+- File completion and command completion
 If you want to have command completion or folder completion in vim you
 can use while in insert mode
 `ctrl-x ctrl-f` to complete files
