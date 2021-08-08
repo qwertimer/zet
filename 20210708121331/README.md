@@ -3,7 +3,7 @@
 # ----------------------------- Interfaces in Go -----------------------------
 
 An interface is a type that attaches to another type and describes what the type can do. A simple example is building a printer scanner fax interface.
-
+```
 type Printer interface{
   Print() string
 
@@ -15,8 +15,9 @@ type Faxer interface {
   Fax() string
 }
 
-
+```
 - Interface joiners
+```
 type PrinterScanner interface {
 
   Printer
@@ -28,10 +29,10 @@ type FaxerPrinterScanner interface {
   Printer
   Scanner
 }
-
+```
 
 - Functions using the interfaces 
-
+```
 type myPrinter struct {}
 
 func(mp myPrinter) Print() string{
@@ -74,3 +75,4 @@ func main() {
   printer := myPrinter{}
   otherPrinter := secondPrinter{}
   process(printer)
+```

@@ -8,11 +8,17 @@ We can do so much with vimagics.
 
 `!}` - If we want to send a section to a command we use `!}` which will send the whole section to the next program.
 
-`!:13` - The command will send from the current line to line 13 to the command that will be typed next.
+`!13!` - The command will send from the current line to line 13 to the command that will be typed next.
 
+```
 # For example we sent this line and the following three lines to `cmt` a program that comments the lines.
+```
+```
 # This is done using !:16.
+```
+```
 # Line is commented
+```
 
 It is of note that the `:16` refers to the line the commenting will end before. ie. Up to but not including line number 16. This is incredbly useful when working with python and other programming languages.
 

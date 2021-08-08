@@ -1,7 +1,6 @@
 # Learning GO [part 3]
 
-### --------------------------- Go programming basics --------------------------
-
+#### Go programming basics 
 $GOPATH is the environment variable that stores where the Go programs are
 stored. $GOROOT is where GO is installed.
 
@@ -15,8 +14,7 @@ NOTE: GOPATH is being deprecated look into Go Modules.
 
 Additional Notes - Somewhat unrelated.
 
-# ------------------------------ Web Deployment ------------------------------
-
+#### Web Deployment 
 WebApps are bound to a port ie 8888.
 We can make the webAPP accessible to the network with 0.0.0.0:8888.
 
