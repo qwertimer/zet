@@ -2,7 +2,8 @@
 
 The process substitution `<(echo 'Hi')` and command substitution `$(echo
 'Hi')` are used in many shell scripts and i could never understand what
-the use of a process substitution does. A terminalforlife video has
+the use of a process substitution does. A terminalforlife video
+[Terminalforlife](https://www.youtube.com/watch?v=5HTIGC6H8DA) has
 given me more understanding of the differences between these and why you
 would use one over the other. The command substitution is seen often in
 many programs often used to get the output of a command and send it
@@ -25,11 +26,11 @@ cat <<< "$(echo hi)"
 
 However it is often seen where people will send the result of the
 process substitution to `stdin` with the `<` such as `cat < <(echo hi)`.
-If you want to send the pretend file to stdin this is the incorrect way
+If you want to send the pretend file to `stdin` this is the incorrect way
 to do it. Instead we can use the command substitution with a here string
 `<<<` with a command such as `cat <<< "$(echo hi)"` which translates to
-sending `echo hi | cat` where cat reads stdin. However if a program is
-unable to use stdin into the program but is able to read a file we can
+sending `echo hi | cat` where cat reads `stdin`. However if a program is
+unable to use `stdin` into the program but is able to read a file we can
 use process substitution to make the process look like a file. This is
 because under the hood the process substitution creates a FIFO or file
 descriptor. The file descriptor or named pipe is a file found in
