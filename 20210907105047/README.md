@@ -9,7 +9,7 @@ specific code or tutorials.
 
 The following notes come from [golang](https://golang.org/doc/tutorial)
 
-** Getting Started **
+**Getting Started**
 
 When you import packages into your Go program, these are managed in a
 go.mod file. This tracks the modules that provide the packages.
@@ -47,7 +47,7 @@ rsc.io/quote` or the more prefered method of `go mod tidy`. This will
 find the package and create a go.sum file for use in authenticating the
 module.
 
-** Go Modules **
+**Go Modules**
 
 In this example we build a module to communicate with a main package.
 The code is seen here:
@@ -98,7 +98,7 @@ replacement. `replace example.com/greetings => ../greetings`. When using
 published modules we can change replace to require and define a
 particular version of the package.
 
-** Adding Return and error handling **
+**Adding Return and error handling**
 
 We can modify for the greetings package to add in error handling as seen
 below:

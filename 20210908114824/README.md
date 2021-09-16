@@ -2,7 +2,7 @@
 
 Continuing https://golang.org/doc/tutorial currently at:
 
-** Return a random greeting **
+**Return a random greeting**
 
 The first thing to look at in this new section is the Go slice. Much
 like arrays in python. The code will create a slice of strings and
@@ -62,7 +62,7 @@ size of the array which is handy.
 init functions are executed automatically on startup, after global
 variables are initialised.[effective go](https://golang.org/doc/effective_go#init)
 
-** Return greetings for multiple people **
+**Return greetings for multiple people**
 
 Adding support to great multiple people. In other words handle a multi
 value input.
