@@ -8,4 +8,4 @@ done < 'file'
 ```
 Where 'file' is any file on the system. Useful method to reduce calls to other programs such as cat when you dont need to.
 
-  #bash
+    #bash
